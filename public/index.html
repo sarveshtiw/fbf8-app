@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>F8 - Facebook Developer Conference</title>
+    <meta name="description" content="Facebook's annual global developer conference will be held at McEnery Convention Center in San Jose this April 18 and 19, 2017. F8 features new products and a glimpse into the future of Facebook.">
+    <link rel="shortcut icon" href="/f8-2017-live/images/meta-icons/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/f8-2017-live/images/meta-icons/favicon.ico" type="image/x-icon">
+    <meta property="fb:app_id" content="619048868222429">
+    <meta property="og:title" content="Join us at F8 2017">
+    <meta property="og:image" content="https://www.fbf8.com/f8-2017-live/images/default-share.png">
+    <meta property="og:site_name" content="F8 - Facebook Developer Conference">
+    <meta property="og:url" content="https://www.fbf8.com">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Facebook's annual global developer conference will be held at McEnery Convention Center in San Jose this April 18 and 19, 2017. F8 features new products and a glimpse into the future of Facebook.">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="mobile-web-app-capable" content="no">
+    <meta name="apple-mobile-web-app-capable" content="no">
+    <link href="/apple-touch-icon-180.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="/apple-touch-icon-152.png" rel="apple-touch-icon" sizes="152x152">
+    <link href="/apple-touch-icon-120.png" rel="apple-touch-icon" sizes="120x120">
+    <link href="/apple-touch-icon-76.png" rel="apple-touch-icon" sizes="72x72">
+    <link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="60x60">
+    <link href="/f8-2017-live/css/f8.css" rel="stylesheet" type="text/css">
+    <link href="/f8-2017-live/css/master.css" rel="stylesheet" type="text/css">
+    <style>
+		.registration-container{ min-height: 600px; clear: both;}
+		.log_sign{ float: right; width: 30%; position: relative}
+		.sign_up_div{ float: left; width: 100%;  position: relative; }
+		 select {
+			border: 1px solid #eee;
+			border-radius: 3px;
+			cursor: pointer;
+			font-family: "Open Sans",sans-serif;
+			font-size: 14px;
+			margin-left: 10px;
+			outline: medium none;
+			width: 28%;
+		}
+    </style>
+  </head>
+  <body class="home">
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    
+	    <nav class="navbar navbar--condensed is-sticky" style="">
+				<div class="container-maxwidth" style="display: block;">
+					<div class="row">
+						<div class="col-md-2 navbar-logo">
+							<h1 class="logo"><a href="/">Facebook Developer Conference &mdash; 2017</a></h1>
+					    </div>
+						<div class="col-md-2 navbar-date"><span>April 18 19<br />San Jose, California</span></div>
+						<ul class="col-md-8 navbar-list">
+							<li><a href="/about">About</a></li>
+							<li><a href="/schedule">Schedule</a></li>
+							<li><a href="/getting-here">Getting Here</a></li>
+							<li><a href="/meetups">Meetups</a></li>
+							<li><a href="/watch">Watch F8</a></li>
+							<li><a href="/registration">Register</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<nav class="navbar navbar--mobile is-inactive">
+				<h1 class="logo logo-white"><a href="/">Facebook Developer Conference &mdash; 2017</a></h1>
+				<div class="navbar-background">
+					<ul class="navbar-list">
+						<li><a href="/about">About</a></li>
+						<li><a href="/schedule">Schedule</a></li>
+						<li><a href="/getting-here">Getting Here</a></li>
+						<li><a href="/meetups">Meetups</a></li>
+						<li><a href="/watch">Watch F8</a></li>
+						<li><a href="/registration">Register</a></li>
+					</ul>
+				</div>
+		    </nav>
+		    <button class="hamburger"><span>toggle menu</span></button>
+		    <div class="cookies-container is-hidden">
+				<div class="cookies-inner container-maxwidth">
+					<div class="row">
+						<div class="col-md-12">
+							<p>To help personalize content, tailor and measure ads, and provide a safer experience, we use cookies. By clicking or navigating the site, you agree to allow our collection of information on and off Facebook through cookies. Learn more, including about available controls: <a href="https://www.facebook.com/policies/cookies/">Cookie Policy</a>.</p><a class="hide-button" href="#">Hide <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="-3 -3 33 34" version="1.1"><path d="M27.7 0.1L0.1 27.9M27.9 27.9L0.2 0" stroke="#FFF" stroke-width="3" stroke-linecap="square" fill="none"/></svg></a></div>
+					</div>
+				</div>
+			</div>
+	  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	  <script>
+		$(window).scroll(function (event) {					  
+			var scroll = $(window).scrollTop();
+			if(scroll > 550){
+				$( ".navbar--condensed").attr("style","transform: matrix(1, 0, 0, 1, 0, 0);");
+			}else{
+				$( ".navbar--condensed").attr("style","transform: matrix(1, 0, 0, 1, 0, -100);");						
+			}
+		});
+		$(function(){
+			window.F8_app.init();
+		});
+	</script>
+	<script src="/f8-2017-live/scripts/vendor-spjiz91woptagrqqia4i.js"></script>
+	<script src="/f8-2017-live/scripts/blinq.js"></script>
+	<script src="/f8-2017-live/scripts/app-spjiz91woptagrqqia4i.js"></script>
+	<script src="/f8-2017-live/scripts/picturefill.min.js"></script>
+  </body>
+</html>
